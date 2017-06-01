@@ -1,0 +1,91 @@
+@font-face {
+	font-family: 'Gilroy-ExtraBold';
+	src: url('../fonts/Gilroy-Extrabold.otf');
+}
+
+@font-face {
+	font-family: 'Gilroy-Light';
+	src: url('../fonts/Gilroy-Light.otf');
+}
+
+h1{
+	font-family: 'Gilroy-ExtraBold';
+	font-size: 40px;
+}
+h2{
+	font-family: 'Gilroy-ExtraBold';
+}
+
+a{
+	text-decoration: none;
+	border-radius: 25px;
+	border : 2px solid white;
+	padding: 15px;
+	font-family: 'Gilroy-Light';
+}
+
+.yellow{
+	color : #F8BF26;
+}
+
+.dividers{
+	width: 100%;
+	text-align: center;
+}
+
+.whities{
+	color : #FFFFFF;
+}
+
+#blue_div{
+	text-align: center;
+	background-color: darkblue;
+}
+
+#theyellowdiv{
+	background-color: #F4F0CD;
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+
+#logo{ height:348px; width: 600px; }
+#tagcomp{ height: 320px; width: 426.7px; padding-top: 20px; margin-right: 110px;}
+
+#firsttext, #tagcomp, #becomeweb, #secondtext, .inline, .contact{
+	display: inline-block;
+	vertical-align:middle;
+}
+#firsttext, #secondtext{ text-align: justify;}
+#secondtext{font-family: 'Gilroy-Light'}
+#becomeweb{ margin-left:80px; margin-right: 220px;}
+#whatitis{padding-bottom: 50px; padding-top: 30px;}
+#plugin{
+	width: 280px;
+	height: 210px;
+}
+
+#site{
+	width: 320px;
+	height: 200px;
+	margin-right: 40px;
+}
+
+#app{
+	width: 100px;
+	height: 204px;
+}
+
+#contactus{
+	margin-top: 30px;
+	font-family: 'Gilroy-Light';
+	/*font-weight: 60px;*/
+	/*border-radius: 25px;
+	border : 2px solid white;
+	padding: 15px;*/
+}
+
+#footer{background-color: blue; padding-bottom: 30px; padding-top: 30px;}
+
+#cont{ margin-right: 30px;}
+
+#smallersize{font-size: 12px; }
