@@ -8,9 +8,25 @@
 	src: url('../fonts/Gilroy-Light.otf');
 }
 
+*::-webkit-input-placeholder {
+	color: white;
+}
+*:-moz-placeholder {
+	/* FF 4-18 */
+	color: white;
+}
+*::-moz-placeholder {
+	/* FF 19+ */
+	color: white;
+}
+*:-ms-input-placeholder {
+	/* IE 10+ */
+	color: white;
+}
+
 h1{
 	font-family: 'Gilroy-ExtraBold';
-	font-size: 40px;
+	font-size: 50px;
 }
 h2{
 	font-family: 'Gilroy-ExtraBold';
@@ -23,6 +39,8 @@ a{
 	padding: 15px;
 	font-family: 'Gilroy-Light';
 }
+
+#email{ border-radius: 25px; border : 2px solid white; padding: 18px; font-family: 'Gilroy-Light'; background-color: blue}
 
 .yellow{
 	color : #F8BF26;
@@ -37,6 +55,8 @@ a{
 	color : #FFFFFF;
 }
 
+.contact{ display: inline-block; vertical-align: top;}
+
 #blue_div{
 	text-align: center;
 	background-color: darkblue;
@@ -44,34 +64,43 @@ a{
 
 #theyellowdiv{
 	background-color: #F4F0CD;
-	padding-bottom: 50px;
-	padding-top: 30px;
+	padding-bottom: 100px;
+	padding-top: 50px;
 }
 
-#logo{ height:348px; width: 600px; }
-#tagcomp{ height: 320px; width: 426.7px; padding-top: 20px; margin-right: 110px;}
-
-#firsttext, #tagcomp, #becomeweb, #secondtext, .inline, .contact{
+#logo{ height:370px; width: auto; }
+#tagcomp{ height: 380px; width: auto; padding-top: 20px; margin-right: 110px;}
+#firsttext, #tagcomp, #becomeweb, #secondtext, .inline{
 	display: inline-block;
 	vertical-align:middle;
 }
+
 #firsttext, #secondtext{ text-align: justify;}
 #secondtext{font-family: 'Gilroy-Light'}
-#becomeweb{ margin-left:80px; margin-right: 220px;}
-#whatitis{padding-bottom: 50px; padding-top: 30px;}
+#becomeweb{ margin-left:90px; margin-right: 210px;}
+#whatitis{padding-bottom: 50px; padding-top: 100px; }
+#aura{
+	position: absolute;
+	height: 160px;
+	width: auto;
+	margin-top: 210px;
+	left: 50%;
+	margin-left: -125.225px;
+}
 #plugin{
 	width: 280px;
 	height: 210px;
 }
 
 #site{
-	width: 320px;
+	width: auto;
 	height: 200px;
-	margin-right: 40px;
+	margin-right: 100px;
+	margin-left: 60px;
 }
 
 #app{
-	width: 100px;
+	width: auto;
 	height: 204px;
 }
 
@@ -83,7 +112,79 @@ a{
 	border : 2px solid white;
 	padding: 15px;*/
 }
+#giantdiv{
+	height : 1550px;
+}
 
+#orangebg, #bluebg, #rosebg{height: 550px; width: 550px; position: absolute;}
+#orangebg{ left: 0px; }
+#bluebg{ right : 0px; margin-top: 470px; }
+#rosebg{ left : 0px; margin-top: 900px; }
+#plugintxt, #apptxt, #sitetxt{
+	text-align: justify;
+	width: 300px;
+	font-family: 'Gilroy-Light';
+	position: absolute;
+}
+#plugintxt{ right: 145px; margin-top: 100px; }
+#apptxt{ left: 200px; margin-top : 660px; }
+#sitetxt{ right : 145px; margin-top: 1200px; }
+
+#num1, #num2, #num3{
+	font-family: 'Gilroy-ExtraBold';
+	position: absolute;
+	font-size: 90px;
+	color : rgba(255, 255, 255, .6);
+}
+#num1{ left: 230px;}
+#num2{ right: 150px; margin-top: 500px;}
+#num3{ left: 230px; margin-top: 950px;}
+#pluginh1, #siteh1, #apph1{
+	color: #FFFFFF;
+	position: absolute;
+}
+#pluginh1{
+	left: 230px;
+	margin-top: 100px;
+}
+#siteh1{
+	right:150px;
+	margin-top: 540px;
+}
+#apph1{
+	left: 230px;
+	margin-top: 990px;
+}
+#apppic, #sitepic, #pluginpic, #pluginlg{
+	width: auto;
+	position: absolute;
+}
+
+#pluginpic{
+	height: 200px;
+	width: auto;
+	margin-top: 170px;
+	left:230px;
+}
+
+#pluginlg{
+	height: 300px;
+	width: auto;
+	left:340px;
+	margin-top: 200px;
+}
+
+#apppic{
+	height:350px;
+	margin-top: 1070px;
+	left: 180px;
+}
+
+#sitepic{
+	height:420px;
+	margin-top: 600px;
+	right: 130px;
+}
 #footer{background-color: blue; padding-bottom: 30px; padding-top: 30px;}
 
 #cont{ margin-right: 30px;}
