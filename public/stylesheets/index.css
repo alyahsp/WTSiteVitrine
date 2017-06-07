@@ -40,13 +40,36 @@ a{
 	font-family: 'Gilroy-Light';
 }
 
-.inner_content{
-	position: relative;
-	margin: auto;
-	min-width: 1240px;
-	max-width: 1300px;
+@media screen and (min-width: 1241px)
+{
+	.inner_content{
+		position: relative;
+		margin: auto;
+		min-width: 1240px;
+		max-width: 1300px;
+	}
+	#plugintxt{ right: 145px; margin-top: 100px; }
+	#apptxt{ left: 200px; margin-top : 660px; }
+	#sitetxt{ right : 145px; margin-top: 1200px; }
+	#aura{margin-top: 210px;}
 }
 
+@media screen and (max-width: 1240px)
+{
+	#plugintxt{ right: 40px; margin-top: 100px; }
+	#apptxt{ left: 40px; margin-top : 660px; }
+	#sitetxt{ right : 40px; margin-top: 1200px; }
+	#aura{margin-top: 210px;}
+	/*.inner_content{
+		position: relative;
+		margin: auto;
+		min-width: 900px;
+		max-width: 100%;
+	}*/
+}
+@media screen and (max-width: 1000px){
+	#aura{margin-top: 350px;}
+}
 #email{ border-radius: 25px; border : 2px solid white; padding: 18px; font-family: 'Gilroy-Light'; background-color: blue}
 
 .yellow{
@@ -78,20 +101,20 @@ a{
 
 #logo{ height:370px; width: auto; }
 #tagcomp{ height: 380px; width: auto; padding-top: 20px; margin-right: 110px;}
-#firsttext, #tagcomp, #becomeweb, #secondtext, .inline{
+#firsttext, #tagcomp, #becomeweb, #secondtext, #thirdtext, .inline{
 	display: inline-block;
 	vertical-align:middle;
 }
 
 #firsttext, #secondtext{ text-align: justify;}
-#secondtext{font-family: 'Gilroy-Light'}
+#secondtext{font-family: 'Gilroy-Light'; width : 400px}
+#thirdtext{font-family: 'Gilroy-Light';}
 #becomeweb{ margin-left:90px; margin-right: 210px;}
 #whatitis{padding-bottom: 50px; padding-top: 100px; }
 #aura{
 	position: absolute;
 	height: 160px;
 	width: auto;
-	margin-top: 210px;
 	left: 50%;
 	margin-left: -125.225px;
 }
@@ -135,9 +158,6 @@ a{
 	font-family: 'Gilroy-Light';
 	position: absolute;
 }
-#plugintxt{ right: 145px; margin-top: 100px; }
-#apptxt{ left: 200px; margin-top : 660px; }
-#sitetxt{ right : 145px; margin-top: 1200px; }
 
 #num1, #num2, #num3{
 	font-family: 'Gilroy-ExtraBold';
@@ -194,6 +214,7 @@ a{
 	margin-top: 600px;
 	right: 130px;
 }
+
 #footer{background-color: blue; padding-bottom: 30px; padding-top: 30px;}
 
 #cont{ margin-right: 30px;}
