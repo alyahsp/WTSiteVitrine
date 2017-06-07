@@ -40,6 +40,13 @@ a{
 	font-family: 'Gilroy-Light';
 }
 
+.inner_content{
+	position: relative;
+	margin: auto;
+	min-width: 1240px;
+	max-width: 1300px;
+}
+
 #email{ border-radius: 25px; border : 2px solid white; padding: 18px; font-family: 'Gilroy-Light'; background-color: blue}
 
 .yellow{
@@ -49,6 +56,7 @@ a{
 .dividers{
 	width: 100%;
 	text-align: center;
+	position: relative;
 }
 
 .whities{
@@ -113,6 +121,7 @@ a{
 	padding: 15px;*/
 }
 #giantdiv{
+	position: relative;
 	height : 1550px;
 }
 
