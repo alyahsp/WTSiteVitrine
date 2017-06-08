@@ -60,12 +60,9 @@ a{
 	#apptxt{ left: 40px; margin-top : 660px; }
 	#sitetxt{ right : 40px; margin-top: 1200px; }
 	#aura{margin-top: 210px;}
-	/*.inner_content{
-		position: relative;
-		margin: auto;
-		min-width: 900px;
-		max-width: 100%;
-	}*/
+	.inner_content{
+		min-width: 320px;
+	}
 }
 @media screen and (max-width: 1000px){
 	#aura{margin-top: 350px;}
