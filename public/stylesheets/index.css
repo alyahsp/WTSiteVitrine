@@ -8,6 +8,15 @@
 	src: url('../fonts/Gilroy-Light.otf');
 }
 
+@font-face {
+	font-family: 'Gotham-Bold';
+	src: url('../fonts/Gotham-Bold.otf');
+}
+
+a{
+	text-decoration: none;
+}
+
 *::-webkit-input-placeholder {
 	color: white;
 }
@@ -32,10 +41,10 @@ h2{
 	font-family: 'Gilroy-ExtraBold';
 }
 
-a{
+#link{
 	text-decoration: none;
 	border-radius: 25px;
-	border : 2px solid white;
+	border : 3px solid white;
 	padding: 15px;
 	font-family: 'Gilroy-Light';
 }
@@ -214,6 +223,17 @@ a{
 
 #footer{background-color: blue; padding-bottom: 30px; padding-top: 30px;}
 
-#cont{ margin-right: 30px;}
+/*#cont{ margin-right: 30px;}*/
 
 #smallersize{font-size: 12px; }
+
+#smedia{
+	margin-top: 50px;
+}
+#size{
+	font-size: 20px;
+}
+#social{
+	font-family: 'Gotham-Bold';
+	font-size: 12px;
+}
