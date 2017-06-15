@@ -49,6 +49,44 @@ h2{
 	font-family: 'Gilroy-Light';
 }
 
+.main {
+	width: 100%;
+	min-height: 700px;
+	background: url(/images/fondtitre.png) no-repeat;
+	background-size: cover;margin: 0 auto;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#main_titles {
+width:100%;
+margin: 0 auto;
+}
+
+#main_titles img {
+	display:block;
+	width:30em;
+	text-align: center;
+	margin: 0 auto;
+	padding-top:10em;
+}
+
+span#Button {
+	display:block;
+	color:white;
+	text-align:center;
+	width: 10em;
+	margin: 0 auto;
+	border: 2px solid white;
+	border-radius: 25px;
+	padding: 8px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-size:0.7em;
+	font-weight: bold;
+	font-family: 'Gilroy-Light';
+}
+
 @media screen and (min-width: 1241px)
 {
 	.inner_content{
