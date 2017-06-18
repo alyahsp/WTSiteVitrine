@@ -17,6 +17,14 @@ a{
 	text-decoration: none;
 }
 
+body {
+	font-family: 'Gilroy-Light';
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: white;
+}
+
 *::-webkit-input-placeholder {
 	color: white;
 	font-size: 15px;
@@ -106,18 +114,39 @@ text-align: center;
 	#plugintxt{ right: 40px; margin-top: 100px; }
 	#apptxt{ left: 40px; margin-top : 660px; }
 	#sitetxt{ right : 40px; margin-top: 1200px; }
+	#aura{margin-top: 350px;}
+	.inner_content{
+		min-width: 1000px;
+	}
+}
+
+@media screen and (max-width: 1036px)
+{
+	#plugintxt{ right: 40px; margin-top: 100px; }
+	#apptxt{ left: 40px; margin-top : 660px; }
+	#sitetxt{ right : 40px; margin-top: 1200px; }
 	#aura{margin-top: 650px;}
 	.inner_content{
 		min-width: 1000px;
 	}
 }
+
 @media screen and (max-width: 1000px){
 	#aura{margin-top: 650px; }
+	.dividers, .main, #footer{
+		min-width: 1000px;
+	}
+	#giantdiv{
+		min-width: 1000px;
+	}
 	.inner_content{
-		min-width: 999px;
+		max-width:50%;
+		min-width:999px;
+		/*max-height:500px;*/
+		/*min-height:21%;*/
 	}
 }
-#email{ margin-left: -100px; border-radius: 25px; border : 3px solid white; padding: 18px; font-family: 'Gilroy-Light'; background-color: #001360}
+#email{ margin-left: -60px; border-radius: 25px; border : 3px solid white; padding: 18px; font-family: 'Gilroy-Light'; background-color: #001360}
 
 .yellow{
 	color : #F8BF26;
@@ -186,12 +215,9 @@ text-align: center;
 #contactus{
 	margin-top: 30px;
 	font-family: 'Gilroy-Light';
-	margin-left: -100px;
-	/*font-weight: 60px;*/
-	/*border-radius: 25px;
-	border : 2px solid white;
-	padding: 15px;*/
+	margin-left: -60px;
 }
+
 #giantdiv{
 	position: relative;
 	height : 1550px;
@@ -264,20 +290,21 @@ text-align: center;
 	right: 130px;
 }
 
-#footer{background-color: #001360; padding-bottom: 30px; padding-top: 30px;}
+#footer{
+	width: 100%;
+	min-height: 300px;
+	background: url(/images/fondtitre.png) no-repeat;
+	background-size: cover;margin: 0 auto;
+	background-attachment: fixed;
+	background-position: center;
+	padding-bottom: 30px; padding-top: 30px;
+}
 
 #smallersize{font-size: 12px;}
 
-/*#smedia{
-	margin-top: 50px;
-}*/
 #size{
 	font-size: 20px;
 }
-/*#social{
-	font-family: 'Gotham-Bold';
-	font-size: 12px;
-}*/
 
 #foot h1{
 	text-align:center;
@@ -289,6 +316,15 @@ text-align: center;
 
 #foot h1 a{
 color:white;
+}
+
+#cont p{
+	margin-right: 50px;
+	padding-bottom: 20px;
+}
+
+.contact p{
+	text-align: justify;
 }
 
 .copyright {
