@@ -146,7 +146,7 @@ text-align: center;
 		/*min-height:21%;*/
 	}
 }
-#email{ margin-left: -60px; border-radius: 25px; border : 3px solid white; padding: 18px; font-family: 'Gilroy-Light'; background-color: #001360}
+#email{border-radius: 25px; border : 3px solid white; padding: 18px; font-family: 'Gilroy-Light'; background-color: #001360}
 
 .yellow{
 	color : #F8BF26;
@@ -215,7 +215,7 @@ text-align: center;
 #contactus{
 	margin-top: 30px;
 	font-family: 'Gilroy-Light';
-	margin-left: -60px;
+	margin-left: -56px;
 }
 
 #giantdiv{
@@ -318,13 +318,17 @@ text-align: center;
 color:white;
 }
 
+#cont{
+	margin-left: 20px;
+}
+
 #cont p{
 	margin-right: 50px;
 	padding-bottom: 20px;
 }
 
 .contact p{
-	text-align: justify;
+	text-align: center;
 }
 
 .copyright {
